@@ -1,0 +1,47 @@
+.my-coll{
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+
+.user-imf{
+	margin-top: 5%;
+}
+
+.headimf{
+	height: 300;
+	overflow: hidden;
+}
+
+.user-imf .sign{
+	width: 500px;
+	height: 65px;
+    resize: none;
+    border-style: none;
+}
+
+.user-imf .nickname{
+	width: 150px;
+	height: 25px;
+    resize: none;
+    border-style: none;
+}
+
+.upload{
+	position: absolute;
+	z-index: 3;
+	opacity: 0;
+	top:0;
+}
+
+.upload:hover{
+	cursor: pointer;
+}
+
+.upload-btn{
+	margin: 5;
+}
+
+.checkedbox input{
+	margin: 5;
+}
+

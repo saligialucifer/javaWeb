@@ -1,0 +1,190 @@
+ul{
+	list-style: none;
+}
+
+.header-discribe{
+	background-image: url(../picture1.jpg);
+	color: white;
+	background-size:100% 100%;
+
+	padding-top:20%;
+	padding-bottom: 20%;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+
+.head-pic{
+	width: 60px;
+	border-radius: 25px;
+	overflow: hidden;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.head_pic{
+	display:block;
+	width:100%;
+	height:auto;
+}
+
+.nav-1{
+	position: absolute;
+	top: 0;
+	width:100%;
+}
+
+.user-imf{
+	margin-top: 4%;
+	background: white;
+	position: fixed;
+	padding: 5px;
+	border-radius: 10px;
+	overflow: hidden;
+	z-index: 2;
+}
+
+.user-imf h5{
+	width:200;
+	padding: 5px;
+	word-wrap:break-word;
+	word-break:break-all;
+}
+
+.user-imf small{
+	padding: 5px;
+	word-wrap:break-word;
+	word-break:break-all;
+
+}
+
+.btn-line a,.btn-line button{
+	margin:5px;
+}
+
+.btn-line button{
+	margin: 5px;
+}
+.btn-line form{
+	display:inline-block;
+}
+
+.nav-2{
+	position: fixed;
+	top:0;
+	width: 100%;
+	background:rgba(0,0,0,0.5);
+	opacity: 0.8;
+	z-index: 2;
+}
+
+.branch{
+	margin: 0;
+	padding: 5px;
+}
+
+.branch>li{
+	display: inline-block;
+	color:white;
+	padding: 10px;
+}
+
+.branch li a{
+	text-decoration: none;
+	color: white;
+}
+
+.branch li:hover{
+	font-size: 20;
+	transition:font-size 0.5s;
+	cursor: pointer;
+}
+
+.classify-content{
+	padding-left: 0;
+	margin: 5px;
+	position: absolute;
+	display: none;
+	background: #429498;
+}
+
+.classify-item{
+	display: inline-block;
+	padding: 15px;
+	float: left;
+}
+
+.classify-item:hover{
+	opacity: 1;
+}
+
+.search-btn{
+	padding:10px;
+}
+
+.pic-animate{
+	width: 360px;
+	height: 240px;
+	overflow:hidden;
+}
+
+.pic-animate>img:hover{
+	padding:-20;
+	 
+}
+
+.carousel-pic{
+	width: 100%;
+	height: 600px;
+}
+
+.footer{
+	width:100%;
+	margin-top: 16%;
+	padding-top:2%;
+	padding-bottom: 2%;
+	background: #444;
+	position:relative;
+	bottom:0px;
+	overflow:hidden;
+}
+
+.footer ul{
+	color: white;
+}
+
+.footer ul li{
+	color: white;
+	opacity: 0.8;
+}
+
+.footer small{
+	color: white;
+}
+
+.myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.myImg:hover {opacity: 0.7;}
+
+.modalContent{
+	width:80%;
+	margin-left:10%;
+	margin-top:5%;
+	margin-bottom:5%;
+}
+
+.content{
+	margin-top:10%;
+	
+}
+
+.section1{
+	margin-top:5%;
+}
+
+.classify-line{
+	margin-top:5%;
+}
